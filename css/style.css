@@ -1,0 +1,247 @@
+/* RESET CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* header styling */
+body{
+    font-family: 'Roboto', sans-serif;
+    color: darkgoldenrod;
+}
+header{
+    background-color: #3f3e3e;
+    height: 10vh; 
+    
+}
+.main_container{
+    width: 1100px;
+    margin:auto;
+}
+.logo_container{
+    background: url(/images/734636f4-5255-4034-a1bf-0030e30c18dd.jpg) no-repeat;
+    width: 89px;
+    height: 52px;
+    float: left;
+    margin-top: 7px;
+    cursor: pointer;
+
+}
+nav{
+    float: right;
+    margin: 25px;
+    
+
+}
+nav a{
+    
+    text-decoration: none;
+    padding: 20px; 
+    color:gold;
+    font-size: small;
+    
+}
+a:nth-child(3){
+    text-decoration: underline;
+    text-underline-position: under;
+    
+}
+nav a:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+/* image of body */
+.image_container{
+    background: url(/images/73732e8f-5409-4ae9-86ed-af5ff87b54a4.jpg) no-repeat;
+   
+    height: 278px;
+    background-size: 107% 122%;
+    filter: contrast(100%) brightness(0.5) saturate(2.5);
+    background-position: -27px 0px
+}
+h1{
+    
+        font-size: 43px;
+        color: gold;
+        font-family: 'Roboto';
+        float: left;
+        position: absolute;
+        top: 46%;
+        left: 53%;
+        text-shadow: 1px -34px 3px;
+        
+    }
+    ul li{
+        float: left  ;
+    }
+   #click_btn{
+
+    /* margin-top: -21%; */
+    margin-left: 17%;
+    text-decoration: none;
+    color: darkgoldenrod;
+    /* clear: left; */
+    /* border: 1px solid black; */
+    /* padding: 20px; */
+    text-align: center;
+    display: block;
+    white-space: nowrap; 
+    width: 100px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    
+  
+   }
+    /* body vedic chants */
+    .vedic{
+       
+        width: 1100px;
+        margin: auto;
+       
+    }
+    h2{
+        font-size: 28px;
+        float: left;
+        margin: 20px;
+        border-bottom: 1px solid darkgoldenrod;
+        
+        font-weight: bold;
+    }
+    /* link styling */
+#link{
+    float: right;
+    text-decoration: none;
+    margin-top: 20px;
+    color: darkgoldenrod;
+    
+    
+}
+p{
+    float: left;
+    justify-content: left;
+    margin: 10px;
+    margin-left: 19px;
+    font-size: 13px;
+    line-height: 20px;
+}
+/* styling audio */
+#audio1{
+    display: none;
+    
+}
+#audio2{
+    display: none;
+}
+#audio3{
+    display: none;
+}
+.audioimg{
+    width: 84px;
+    cursor: pointer;
+    padding: 33px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    
+    display: block;
+}
+
+.down{
+    float: left;
+    margin-top: 58px;
+    margin-left: 38%;
+    width: 20%;
+    height: 42px;
+    font-size: 19px;
+    
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(173, 129, 16);
+    outline: none;
+    cursor: pointer;
+
+}
+
+/* yoga header styling */
+.yoga{
+   
+    width: 1100px;
+    margin: auto;
+    
+   
+}
+ h3{
+    font-size: 28px;
+    float: left;
+    margin-top: 20px;
+    border-bottom: 1px solid darkgoldenrod;
+    color: darkgoldenrod;
+    font-weight: bold;
+    float: left;
+    margin-top: 11%;
+    margin-left: -57%;
+ }
+  p1{
+    float: left;
+    
+    margin-top: 90px;
+    margin-left: 19px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .download{
+    float: left;
+    margin-top: 57px;
+    margin-left: 38%;
+    width: 20%;
+    height: 42px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(173, 129, 16);
+    outline: none;
+    cursor: pointer;
+    padding: 13px;
+  }
+  
+
+ 
